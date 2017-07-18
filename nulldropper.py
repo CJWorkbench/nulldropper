@@ -3,6 +3,11 @@ import re
 
 # ---- SelectColumns ----
 
+@staticmethod
+def __init__(self):
+    pass
+
+
 class Importable:
     @staticmethod
     def event():
