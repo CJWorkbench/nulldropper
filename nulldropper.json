@@ -1,5 +1,5 @@
 {
-  "name": "nulldropper",
+  "name": "Null Dropper",
   "id_name": "nulldropper",
   "category" : "Invisible Institute",
   "description": "Drop all columns that are null"
