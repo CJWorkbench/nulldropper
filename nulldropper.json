@@ -1,6 +1,6 @@
 {
   "name": "Null Dropper",
   "id_name": "nulldropper",
-  "category" : "Invisible Institute",
-  "description": "Drop all columns that are null"
+  "category" : "Filter",
+  "description": "Drop column if all of its values are empty"
 }
