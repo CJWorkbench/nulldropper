@@ -1,6 +1,6 @@
 {
   "name": "Null Dropper",
   "id_name": "nulldropper",
-  "category" : "Filter",
+  "category" : "Wrangle",
   "description": "Drop column if all of its values are empty"
 }
