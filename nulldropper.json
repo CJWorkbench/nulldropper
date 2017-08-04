@@ -2,5 +2,6 @@
   "name": "Null Dropper",
   "id_name": "nulldropper",
   "category" : "Wrangle",
+  "icon": "wrangle",
   "description": "Drop column if all of its values are empty"
 }
