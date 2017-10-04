@@ -3,5 +3,11 @@
   "id_name": "nulldropper",
   "category" : "Analyse",
   "icon": "filter",
-  "description": "Drop column if all of its values are empty"
+  "description": "Drop column if all of its values are empty",
+  "parameters": [
+  {
+    "name": "Drop column if all of its values are empty"
+
+  }
+]
 }
