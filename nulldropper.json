@@ -5,8 +5,10 @@
   "icon": "wrangle",
   "description": "Drop column if all of its values are empty",
   "parameters": [
-  {
-    "name": "Drop column if all of its values are empty"
-  }
+    {
+      "name": "Drop column if all of its values are empty",
+      "id_name": "nulldropper_statictext",
+      "type": "statictext"
+    }
 ]
 }
