@@ -1,12 +1,12 @@
 {
-  "name": "Null Dropper",
+  "name": "Drop empty columns",
   "id_name": "nulldropper",
   "category" : "Analyse",
   "icon": "wrangle",
   "description": "Drop all empty columns",
   "parameters": [
     {
-      "name": "Drop all empty columns",
+      "name": "Drop column if all of its values are empty",
       "id_name": "nulldropper_statictext",
       "type": "statictext"
     }
