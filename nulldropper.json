@@ -1,5 +1,5 @@
 {
-  "name": "Drop empty columns",
+  "name": "Drop Empty Columns",
   "id_name": "nulldropper",
   "category" : "Analyse",
   "icon": "wrangle",
