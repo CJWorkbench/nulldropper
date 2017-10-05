@@ -3,7 +3,7 @@
   "id_name": "nulldropper",
   "category" : "Analyse",
   "icon": "wrangle",
-  "description": "Drop column if all of its values are empty",
+  "description": "Drop all empty columns",
   "parameters": [
     {
       "name": "Drop column if all of its values are empty",
