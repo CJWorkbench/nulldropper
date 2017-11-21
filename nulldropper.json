@@ -6,7 +6,7 @@
   "description": "Drop all empty columns",
   "parameters": [
     {
-      "name": "Drop column if all of its values are empty",
+      "name": "Drop every column which has no data",
       "id_name": "nulldropper_statictext",
       "type": "statictext"
     }
