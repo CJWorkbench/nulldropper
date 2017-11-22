@@ -1,4 +1,7 @@
 def render(table, params):
+    if table is None:
+        return None
+    
     buf = StringIO()
     table.info(buf=buf)
     s = buf.getvalue()
