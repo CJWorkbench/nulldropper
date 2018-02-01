@@ -1,12 +1,20 @@
 def render(table, params):
+    import pandas as pd # needed for tests to run, ugly in production
+    import numpy as np
+
     if table is None:
         return None
-    
-    buf = StringIO()
-    table.info(buf=buf)
-    s = buf.getvalue()
-    info_values = [re.split("\\s\\s+", x) for x in s.split("\n")]   
-    info_values = [x for x in info_values if len(x) > 1]
-    info_values = [x[0] for x in info_values if x[1].startswith('0 non-null')]
-    df = table.drop(info_values, axis=1)
-    return df
+
+    # first drop cols where all are None or NaN
+    table.dropna(axis=1, how='all', inplace=True)
+
+    # Now drop cols where all are empty string
+    keepcols = []
+    for c in table.columns:
+        if not ((table[c].dtype == np.object) and (table[c]=='').all()):
+            keepcols.append(c)
+
+    if len(keepcols) != len(table.columns):
+        table = table[keepcols]
+
+    return table
