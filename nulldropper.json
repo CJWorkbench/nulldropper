@@ -4,6 +4,7 @@
   "category" : "Analyse",
   "icon": "wrangle",
   "description": "Drop all empty columns",
+  "help_url":"modules/analyse/drop-empty-columns",
   "parameters": [
     {
       "name": "Drop every column which has no data",
