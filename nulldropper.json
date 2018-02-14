@@ -7,7 +7,7 @@
   "help_url":"modules/analyse/drop-empty-columns",
   "parameters": [
     {
-      "name": "",
+      "name": "Drop columns with no values",
       "id_name": "nulldropper_statictext",
       "type": "statictext"
     }
