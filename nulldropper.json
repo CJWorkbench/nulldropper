@@ -2,7 +2,7 @@
   "name": "Drop empty columns",
   "id_name": "nulldropper",
   "category" : "Prepare",
-  "icon": "wrangle",
+  "icon": "transform",
   "description": "Drop all empty columns",
   "help_url":"modules/analyse/drop-empty-columns",
   "parameters": [
