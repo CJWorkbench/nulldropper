@@ -4,7 +4,7 @@
   "category" : "Prepare",
   "icon": "transform",
   "description": "Drop all empty columns",
-  "help_url":"modules/analyse/drop-empty-columns",
+  "help_url":"modules/prepare/drop-empty-columns",
   "parameters": [
     {
       "name": "Drop columns with no values",
