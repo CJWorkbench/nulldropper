@@ -1,10 +1,10 @@
 {
   "name": "Drop empty columns",
   "id_name": "nulldropper",
-  "category" : "Prepare",
+  "category" : "Clean",
   "icon": "transform",
   "description": "Drop all empty columns",
-  "help_url":"modules/prepare/drop-empty-columns",
+  "help_url":"modules/clean/drop-empty-columns",
   "parameters": [
     {
       "name": "Drop columns with no values",
